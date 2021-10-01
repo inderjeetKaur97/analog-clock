@@ -1,0 +1,56 @@
+#clccontainer {
+    position: relative;
+    background-color: pink;
+    height: 50vw;
+    width: 50vw;
+    margin: auto;
+    background: url(img/clock1.png) no-repeat ;
+    background-size: 100%;
+}
+
+#hour {
+    position: absolute;
+    height: 20%;
+    top: 29%;
+    left: 50%;
+    width: 1.4%;
+    background-color: red;
+    transform-origin: bottom;
+    /* display: none; */
+
+}
+
+#min {
+    position: absolute;
+    height: 28%;
+    top: 21%;
+    left: 50%;
+    width: 1.4%;
+    background-color: rgb(255, 217, 0);
+    transform-origin: bottom;
+
+    /* display: none; */
+
+}
+
+#sec {
+    position: absolute;
+    height: 34%;
+    top: 16%;
+    left: 50%;
+    width: 1.4%;
+    background-color: rgb(60, 255, 0);
+    transform-origin: bottom;
+
+    /* display: none; */
+}
+
+#circle {
+    background-color: black;
+    border-radius: 50%;
+    height: 3%;
+    width: 3%;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+}
